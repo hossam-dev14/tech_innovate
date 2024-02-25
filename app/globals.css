@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*
+@layer base {
+    :root {
+
+      --color-primary: rgb(93, 14, 180);
+      --color-secondary: rgb(225, 29, 72);
+
+      --bg-color: rgb(232, 240, 248);
+  }
+}
+ */
+
+body {
+  font-family: 'Archivo', Helvetica, sans-serif;
+  color: #554;
+  /* background: var(--bg-color); */
+  @apply 
+  text-gray-50
+  bg-black bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-700 to-black;
+} 
+ 
+
+/*
+h1, h2 { @apply font-bold text-primary text-lg; }
+
+
+
+button {
+  @apply 
+    px-3 py-2 
+    rounded-sm 
+    flex justify-between items-center gap-2
+    text-sm;
+}
+button:hover {
+  @apply bg-opacity-90;
+}
+.btn-primary {
+  @apply bg-primary text-white;
+}
+.btn-secondary {
+  @apply bg-gray-200 text-gray-900;
+} 
+
+*/
