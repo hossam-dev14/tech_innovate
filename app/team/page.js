@@ -27,15 +27,11 @@ const members = [
 const Team = () => {
   return (
     <div>   
-      <div className="container mx-auto mt-20 px-5 pt-26 pb-14 lg:flex">
-        <div className="grid max-w-7xl gap-x-8 gap-y-20 lg:px-6 xl:grid-cols-3">
-          <div className="max-w-2xl">
-            <h2 className="text-3xl tracking-tight font-medium title-font sm:text-7xl mb-4 from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
+      <div className="container mx-auto mt-20 px-5 pt-26 pb-14 lg:max-w-screen-lg">
+          <div className="mb-16 text-center">
+            <h2 className="text-5xl sm:text-6xl md:text-7xl tracking-tight font-medium title-font pb-2 from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
               Meet our team
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-200">
-              {/* Libero fames augue nisl porttitor nisi. */}
-            </p>
           </div>
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2 ">
             {members.map((person) => (
@@ -77,7 +73,6 @@ const Team = () => {
             ))}
 
           </ul>
-        </div>
       </div>
     </div>
     )

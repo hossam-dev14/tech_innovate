@@ -4,13 +4,13 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <footer className="text-gray-300 body-font static bottom-0 right-0 left-0">
-        <div className="container px-5 py-8 mt-3 mx-auto flex items-center sm:flex-row flex-col">
+        <div className="container pb-14 lg:max-w-screen-lg px-5 py-8 mt-3 mx-auto flex items-center sm:flex-row flex-col">
             <Link href="/" 
             className="flex title-font font-medium items-center md:justify-start justify-center bg-gradient-to-r from-pink-600 to-blue-500 bg-clip-text text-transparent hover:bg-gradient-to-l transition-all duration-500">
                 <span className="ml-3 text-xl">Tech Innovate</span>
             </Link>
                 <Link href="https://github.com/hossam-dev14"
-                    className="text-gray-300 ml-1 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4" 
+                    className="text-gray-300 text-sm text- ml-1 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-500 sm:py-1 sm:mt-0 mt-4" 
                     rel="noopener noreferrer" 
                     target="_blank">
                     © 2024 Created by Hossam-dev14

@@ -1,12 +1,15 @@
 
 const Contact = () => {
     return (
-        <section className="body-font relative">
-            <div className="container px-5 pt-20 pb-10 mx-auto">
-                <div className="flex flex-col text-left w-full mb-12">
-                    <h1 className="font-medium title-font sm:text-7xl text-4xl mb-4 from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">Contact me</h1>
-                    {/* <p className="text-xl leading-relaxed text-gray-300 ml-4">Get in touch with me.</p> */}
+        <section className="text-gray-300 body-font">
+            <div className="container mx-auto mt-20 px-5 pt-26 pb-14 lg:max-w-screen-lg">
+                <div className="mb-16  text-center">
+                    <h2 className="text-5xl sm:text-6xl md:text-7xl tracking-tight font-medium title-font pb-2 from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
+                    Contact me
+                    </h2>
+                    <p className="text-xl leading-relaxed text-gray-300 ml-4">Get in touch with me</p>
                 </div>
+
                 <div className="lg:w-1/2 md:w-2/3 mx-auto">
                     <div className="flex flex-wrap flex-col sm:flex-row  -m-2">
                             <div className="p-2 sm:w-1/2 w-full">
