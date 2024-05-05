@@ -1,6 +1,6 @@
 
 ## Home Page
-![home page][https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_4TgmnoMCq6kNJ2gvmYSW51sPydRC%26teamId%3Dhossamdevs-projects%26withStatus%3D1&w=640&q=75&dpl=dpl_EuyA4fyP144YisKLhGH7EAeHAb5t](https://github.com/hossam-dev14/tech_innovate/issues/1#issue-2279398657)
+![TechInnovate](https://github.com/hossam-dev14/tech_innovate/assets/73648971/28227b48-5346-4499-94ea-f95b53d09b6d)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
